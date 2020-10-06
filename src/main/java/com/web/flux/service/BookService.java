@@ -23,5 +23,4 @@ public class BookService {
 		return bookGateway.findById(code);
 	}
 	
-	
 }

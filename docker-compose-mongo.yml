@@ -24,7 +24,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - /home/renatogroffe/Desenvolvimento/Docker/Volumes/MongoDB:/data/db
+      - C:\Users\Junior\Documents\Docker\Mongo:/data/db
     networks:
       - mongo-compose-network
 
